@@ -1,0 +1,5 @@
+kubectl get pods -> to list all the pods in a current namespace or default namespace
+kubectl describe pod pod_name -> is used to describe the pod where we can know details about the pirticular pod <pod_name - is the name of your pod>
+kubectl get pods -o wide -> is used to describe the list of pods with few more details 
+while running kubectl get pods , there a fracion number under Ready coloum , it describes the running pods/total number of pods 
+imperative way of creating a simple pod -> kubectl create depolyment nginx --image=nginx:latest
